@@ -2,7 +2,7 @@ import requests
 
 def main():
     city = 'Moscow,RU'
-    appid = '47bcbbabb8773071a9eff946c562d7a8'
+    appid = 'your appid'
     res = requests.get('http://api.openweathermap.org/data/2.5/forecast',
                        params={'q': city, 'units': 'metric', 'lang': 'ru', 'APPID': appid})
     data = res.json()
