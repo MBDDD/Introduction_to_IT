@@ -1,6 +1,9 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLineEdit, QHBoxLayout, QVBoxLayout, QPushButton
 
+# Linux install packages tutorial
+# sudo apt-get install python3-pyqt5
+# pip install PyQt5
 
 class Calculator(QWidget):
     def __init__(self):
@@ -47,7 +50,7 @@ class Calculator(QWidget):
         self.hbox_third.addWidget(self.b_delete)
         self.b_multiply = QPushButton('*', self)
         self.hbox_third.addWidget(self.b_multiply)
-        self.b_dot = QPushButton('.", self)
+        self.b_dot = QPushButton('.', self)
         self.hbox_third.addWidget(self.b_dot)
         self.b_result = QPushButton("=", self)
         self.hbox_result.addWidget(self.b_result)

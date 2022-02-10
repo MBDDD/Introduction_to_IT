@@ -1,5 +1,5 @@
 # Запустить: flask run
-# Переходить по этой ссылке http://localhost:5000/
+# Переходить по этой ссылке http://localhost:5000/registration/
 from flask import Flask, render_template, request, redirect
 import psycopg2
 
